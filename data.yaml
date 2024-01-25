@@ -1,0 +1,13 @@
+train: train.txt
+val: train.txt
+test: test.txt
+
+nc: 25
+names: ['Back', 'Close', 'Down Ear', 'DownEar', 'DownHead', 'DownTail', 'Front', 'Head', 'Lay', 'MidTail', 'Open', 'OpenHead', 'Sit', 'Stand', 'Tail', 'Teeth', 'UpEad', 'UpEar', 'UpHEad', 'UpHead', 'UpTail', 'Uphead', 'ear', 'oPEN', 'se']
+
+roboflow:
+  workspace: project-iab9s
+  project: idel
+  version: 2
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/project-iab9s/idel/dataset/2
